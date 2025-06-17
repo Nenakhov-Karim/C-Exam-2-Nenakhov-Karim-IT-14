@@ -7,7 +7,7 @@ int main() {
     int N, start, step;
     string input;
 
-    cout << "Enter N: " << endl;
+    cout << "Enter N (a half of list elements): " << endl;
     while (true) {
         getline(cin, input);
         if (IsInt(input) and IsBiggerThanZero(input)) {
